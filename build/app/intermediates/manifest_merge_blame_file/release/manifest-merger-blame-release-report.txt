@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutterappcarsecur"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:8:5-66
+17-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:9:5-80
+18-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:10:5-66
+19-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:10:22-63
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:11:5-68
+20-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:11:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:connectivity] C:\mesapp\flutterappcarsecur\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+21-->[:connectivity] C:\mesapp\flutterappcarsecur\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[:connectivity] C:\mesapp\flutterappcarsecur\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:5-76
+22-->[:connectivity] C:\mesapp\flutterappcarsecur\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:22-73
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:7:5-77
+23-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:7:22-74
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+24-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+26
+27    <application
+27-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:12:5-44:19
+28        android:name="io.flutter.app.FlutterApplication"
+28-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:13:9-57
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\35f29bb1a578f0319e9c3e21730b6b49\core-1.2.0\AndroidManifest.xml:24:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:15:9-43
+31        android:label="flutterappcarsecur" >
+31-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:14:9-43
+32        <activity
+32-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:16:9-31:20
+33            android:name="com.example.flutterappcarsecur.MainActivity"
+33-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:17:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:20:13-163
+35            android:hardwareAccelerated="true"
+35-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:21:13-47
+36            android:launchMode="singleTop"
+36-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:18:13-43
+37            android:theme="@style/LaunchTheme"
+37-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:19:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:22:13-55
+39            <intent-filter>
+39-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:23:13-26:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:24:17-68
+40-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:25:17-76
+42-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:25:27-74
+43            </intent-filter>
+44            <intent-filter>
+44-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:27:13-30:29
+45                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+45-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:28:17-69
+45-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:28:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:29:17-76
+47-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:29:27-73
+48            </intent-filter>
+49        </activity>
+50
+51        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+51-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:32:9-106
+51-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:32:19-103
+52        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+52-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:33:9-37:20
+52-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:33:19-107
+53            <intent-filter>
+53-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:34:9-36:29
+54                <action android:name="android.intent.action.BOOT_COMPLETED" />
+54-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:35:17-86
+54-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:35:25-76
+55            </intent-filter>
+56        </receiver>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:40:9-42:33
+62            android:name="flutterEmbedding"
+62-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:41:13-44
+63            android:value="2" />
+63-->C:\mesapp\flutterappcarsecur\android\app\src\main\AndroidManifest.xml:42:13-30
+64
+65        <service
+65-->[:firebase_auth] C:\mesapp\flutterappcarsecur\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[:firebase_auth] C:\mesapp\flutterappcarsecur\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\8f51a008acd9dd14e09511407a427594\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+68            android:exported="false" >
+68-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+69            <meta-data
+69-->[:firebase_auth] C:\mesapp\flutterappcarsecur\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+70-->[:firebase_auth] C:\mesapp\flutterappcarsecur\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_auth] C:\mesapp\flutterappcarsecur\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+72            <meta-data
+72-->[:cloud_firestore] C:\mesapp\flutterappcarsecur\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+73-->[:cloud_firestore] C:\mesapp\flutterappcarsecur\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-133
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:cloud_firestore] C:\mesapp\flutterappcarsecur\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:firebase_database] C:\mesapp\flutterappcarsecur\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+76-->[:firebase_database] C:\mesapp\flutterappcarsecur\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:10:17-127
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_database] C:\mesapp\flutterappcarsecur\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:firebase_core] C:\mesapp\flutterappcarsecur\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+79-->[:firebase_core] C:\mesapp\flutterappcarsecur\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_core] C:\mesapp\flutterappcarsecur\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-16:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+82-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:17-127
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:17-82
+84            <meta-data
+84-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+85                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+85-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+91-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6e75afbeadc008d375dbde2b342367ef\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+94                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+94-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6e75afbeadc008d375dbde2b342367ef\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6e75afbeadc008d375dbde2b342367ef\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-database:17.0.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\9fb27eb1abddd325a1b560cd940e66b9\jetified-firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+97                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+97-->[com.google.firebase:firebase-database:17.0.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\9fb27eb1abddd325a1b560cd940e66b9\jetified-firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-database:17.0.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\9fb27eb1abddd325a1b560cd940e66b9\jetified-firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+99        </service>
+100        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+100-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+100-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:18-101
+101            <intent-filter>
+101-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+102                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+102-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-78
+102-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-75
+103            </intent-filter>
+104        </service>
+105
+106        <receiver android:name="com.tarafdari.flutter_media_notification.NotificationReturnSlot" />
+106-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:12:9-100
+106-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:12:19-97
+107        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+107-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:13:9-17:20
+107-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:13:19-76
+108            <intent-filter>
+108-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:14:13-16:29
+109                <action android:name="android.intent.action.MEDIA_BUTTON" />
+109-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:15:17-77
+109-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:15:25-74
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:19:9-22:39
+114            android:name="com.tarafdari.flutter_media_notification.NotificationPanel"
+114-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:20:13-86
+115            android:enabled="true"
+115-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:21:13-35
+116            android:exported="true" />
+116-->[:flutter_media_notification] C:\mesapp\flutterappcarsecur\build\flutter_media_notification\intermediates\library_manifest\release\AndroidManifest.xml:22:13-36
+117
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+122        </receiver>
+123        <receiver
+123-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+124-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+126            android:exported="true"
+126-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+127            android:permission="android.permission.INSTALL_PACKAGES" >
+127-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+128            <intent-filter>
+128-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+129                <action android:name="com.android.vending.INSTALL_REFERRER" />
+129-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+129-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <service
+133-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+134            android:name="com.google.android.gms.measurement.AppMeasurementService"
+134-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+135            android:enabled="true"
+135-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+136            android:exported="false" />
+136-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+137        <service
+137-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+138            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+138-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+142
+143        <activity
+143-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+144            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+144-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+145            android:excludeFromRecents="true"
+145-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+146            android:exported="true"
+146-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+147            android:launchMode="singleTask"
+147-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+148            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+148-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+149-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+150        <!--
+151             FirebaseMessagingService performs security checks at runtime,
+152             but set to not exported to explicitly avoid allowing another app to call it.
+153        -->
+154        <service
+154-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a23529fceddbb65ea9b98e59652f3cb6\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+155            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+155-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a23529fceddbb65ea9b98e59652f3cb6\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+156            android:exported="false" >
+156-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\a23529fceddbb65ea9b98e59652f3cb6\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+157            <intent-filter android:priority="-500" >
+157-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+158                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+158-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-78
+158-->[:firebase_messaging] C:\mesapp\flutterappcarsecur\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-75
+159            </intent-filter>
+160        </service>
+161
+162        <receiver
+162-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+163            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+163-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+164            android:exported="true"
+164-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+165            android:permission="com.google.android.c2dm.permission.SEND" >
+165-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+166            <intent-filter>
+166-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+167                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+167-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+167-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+168            </intent-filter>
+169        </receiver>
+170
+171        <provider
+171-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\8f51a008acd9dd14e09511407a427594\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+172            android:name="com.google.firebase.provider.FirebaseInitProvider"
+172-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\8f51a008acd9dd14e09511407a427594\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+173            android:authorities="com.example.flutterappcarsecur.firebaseinitprovider"
+173-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\8f51a008acd9dd14e09511407a427594\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+174            android:exported="false"
+174-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\8f51a008acd9dd14e09511407a427594\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+175            android:initOrder="100" />
+175-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\8f51a008acd9dd14e09511407a427594\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+176
+177        <activity
+177-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+178-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+181
+182        <meta-data
+182-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\bd17b69d3d796da8a7000a027f43c851\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+183            android:name="com.google.android.gms.version"
+183-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\bd17b69d3d796da8a7000a027f43c851\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+184            android:value="@integer/google_play_services_version" />
+184-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Der zauber\.gradle\caches\transforms-2\files-2.1\bd17b69d3d796da8a7000a027f43c851\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+185    </application>
+186
+187</manifest>

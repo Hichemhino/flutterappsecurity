@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">2682908119-5jn6d3t8cfo21nfdl19anj64em37lbl6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://carsecurity-e9631.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">2682908119</string>
+    <string name="google_api_key" translatable="false">AIzaSyAKEm-NXuKX4jZZ7wZ1HmfidZmhnAS1xFM</string>
+    <string name="google_app_id" translatable="false">1:2682908119:android:ef358e367d3528c63aaf92</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAKEm-NXuKX4jZZ7wZ1HmfidZmhnAS1xFM</string>
+    <string name="google_storage_bucket" translatable="false">carsecurity-e9631.appspot.com</string>
+    <string name="project_id" translatable="false">carsecurity-e9631</string>
+</resources>

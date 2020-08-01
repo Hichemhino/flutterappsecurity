@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\mesapp\\flutterappcarsecur\\build\\firebase_database\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Der zauber\\.gradle\\caches\\transforms-2\\files-2.1\\f0035c3d7b0fa68659f3f5e0a147648b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\mesapp\\flutterappcarsecur\\build\\firebase_database\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Der zauber\\.gradle\\caches\\transforms-2\\files-2.1\\f0035c3d7b0fa68659f3f5e0a147648b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\mesapp\\flutterappcarsecur\\build\\firebase_database\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Der zauber\\.gradle\\caches\\transforms-2\\files-2.1\\f0035c3d7b0fa68659f3f5e0a147648b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]

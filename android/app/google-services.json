@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "2682908119",
+    "firebase_url": "https://carsecurity-e9631.firebaseio.com",
+    "project_id": "carsecurity-e9631",
+    "storage_bucket": "carsecurity-e9631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2682908119:android:ef358e367d3528c63aaf92",
+        "android_client_info": {
+          "package_name": "com.example.flutterappcarsecur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2682908119-5jn6d3t8cfo21nfdl19anj64em37lbl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKEm-NXuKX4jZZ7wZ1HmfidZmhnAS1xFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2682908119-5jn6d3t8cfo21nfdl19anj64em37lbl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
